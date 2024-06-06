@@ -6,9 +6,14 @@ Pero antes de programarlo, debemos buscar y encontrar otras bases de datos, dond
 ## Explicacion de base de datos existentes
 Antes que nada hay que saber que es una base de datos un conjunto de información perteneciente a un mismo contexto, ordenada de modo sistemático para su posterior recuperación, análisis y transmisión.
 ### Comparativa 
-
-
-### justificacion de este nuevo desarrollo
+Teniendo en cuenta las siguientes paginas que son unas bases de datos: 
+```
+https://es.wikipedia.org/wiki/Wikipedia:Portada
+https://www.rae.es/biblioteca-digital
+https://dle.rae.es/                            
+```
+Vemos que cada una tiene un formato para demostrar una base de datos, pero estos estan hechos mas para informar y mostrar al publico sus datos, cada una es distinta, y se dividen en categorias distintas, pero en nuestro caso, solo vamos a hacer una sencilla, y ademas donde el usuario pueda introducir, modificar o mostrar datos, en este caso unas fechas con su respectivo evento. 
+### Justificacion de este nuevo desarrollo
 Tenemos en cuenta, que el hecho de hacer esto es para poder crear una nueva base de datos, pero que esta almacene tanto fechas importantes, como el evento que acontecio en esta misma, ya que aun que existen bases de datos, no hay una que solo maneje fechas y eventos, aparte, para tener una base de datos de facil acceso y modificacion para el usuario.
 
 ## Estructura de repositorio
@@ -22,7 +27,9 @@ Tenemos en cuenta, que el hecho de hacer esto es para poder crear una nueva base
 ### >Mijael Callejas
 
 ## Herramientas utilizadas
+```
 Visual Studio
 Chat gpt 
 Google
 Draw.io
+```
