@@ -17,9 +17,11 @@ Vemos que cada una tiene un formato para demostrar una base de datos, pero estos
 Tenemos en cuenta, que el hecho de hacer esto es para poder crear una nueva base de datos, pero que esta almacene tanto fechas importantes, como el evento que acontecio en esta misma, ya que aun que existen bases de datos, no hay una que solo maneje fechas y eventos, aparte, para tener una base de datos de facil acceso y modificacion para el usuario.
 
 ## Estructura de repositorio
-
+Dentro del repositorio existiran 2 ramas, al ser 2 personas trabajando dentro de este proyecto, cada rama es para que se pueda mostrar y probar los cambios en el codigo, antes de subirlo al main, y no arruinar el trabajo
 ## Descripcion de las funciones, estructuras
-
+FUNCION ADD
+FUNCION DEL
+FUNCION 
 ## Diagrama de flujo
 ![IMAGEN DE PRUEBA](https://www.barakaldotiendaveterinaria.es/blog/wp-content/uploads/2016/04/gato-sobre-ordenador.jpg)
 ## CREDITOS
