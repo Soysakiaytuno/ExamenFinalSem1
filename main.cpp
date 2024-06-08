@@ -10,6 +10,7 @@ void funcion_delete(map<string,string>& base_de_datos, string fecha);
 void funcion_find(map<string,string>base_de_datos, string fecha);
 void funcion_print(const map<string,string>& base_de_datos);
 map<string, string> reverse_map(map<string, string> m);
+void funcion_delete_one(map<string,string>& base_de_datos, string evento);
 int main (){
    string comando;
    map<string,string>base_de_datos;
@@ -32,9 +33,14 @@ while(true){
             }
     }
     else if (comando == "Del"){
-        cin >> fecha;
+        cin >> fecha >> evento;
         if (formato_de_fecha(fecha)) {
-            funcion_delete(base_de_datos, fecha); 
+            if(evento == ""){
+            funcion_delete(base_de_datos, fecha);  
+            }
+            else{
+            funcion_delete_one(base_de_datos, evento); 
+            }
         }
     }
     else if(comando == "Find"){
@@ -149,7 +155,7 @@ return 0;
     }
     void funcion_delete(map<string,string>& base_de_datos, string fecha){
     int contador = 0;
-    for (auto it = base_de_datos.begin(); it != base_de_datos.end(); ) {
+    for (auto it = base_de_datos.begin(); it != base_de_datos.end();) {
         if (it->second < fecha) { 
             it = base_de_datos.erase(it);
             ++contador;
@@ -160,10 +166,14 @@ return 0;
     cout << "Deleted " << contador << " events" << endl;
 }
 
+void funcion_delete_one(map<string,string>& base_de_datos, string evento){
+
+}
+
     void funcion_find(map<string,string>base_de_datos, string fecha){
         reverse_map(base_de_datos);
         for(const auto& item : base_de_datos) {
-        if(item.second != fecha){
+        if(item.second == fecha){
         cout << item.first << endl;
         }
         }
