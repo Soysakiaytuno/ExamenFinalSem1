@@ -20,14 +20,22 @@ Tenemos en cuenta, que el hecho de hacer esto es para poder crear una nueva base
 Dentro del repositorio existiran 2 ramas, al ser 2 personas trabajando dentro de este proyecto, cada rama es para que se pueda mostrar y probar los cambios en el codigo, antes de subirlo al main, y no arruinar el trabajo
 ## Descripcion de las funciones, estructuras
 ### FUNCION PRINCIPAL
-
-### FUNCION DIGITO
-### FUNCION FORMATO DE FECHA
-### FUNCION REVERSA 
-### FUNCION ADD
-### FUNCION DEL
-### FUNCION FIND
-### FUNCION PRINT 
+Inicia el bucle para la pedida de los datos y segun el comando que se pida se llama a las distintas funciones creadas
+### FUNCION ES_DIGITO:
+Verifica que la fecha este compuesta de solamente numeros
+### FUNCION FORMATO_DE_FECHA:
+Verifica que la fecha ingresada por el usuario este en el formato que se especifica: que pueda aceptar años negativos, que pueda aceptar el simbolo "+" antes de la fecha, que el mes no sea menor a 0 o mayor a 12, que el mes no sea 
+menor a 0 o mayor a 31 y que no se acepte doble guion
+### FUNCION REVERSA:
+Invierte el orden de los datos en el map
+### FUNCION ADD:
+Añade los datos introducidos por el usuario al map de base_de_datos
+### FUNCION DEL:
+Elimina el dato o datos que el usuario desee, si el usuario ingrese una fecha se borran todos los eventos que comparten la misma fecha, en cambio si el usuario ingresa fecha y evento se borra especificamente ese conjunto de la base de datos
+### FUNCION FIND:
+Busca los eventos de la fecha ingresada por el usuario y los devuelve ordenados de forma ascendente
+### FUNCION PRINT:
+Imprime todos los datos almacenados en la base de datos, las devuelve ordenadas las fechas de forma ascendente y si en la misma fecha hay eventos diferentes los ordena de forma alfabetica
 ## Diagrama de flujo
 ![DIAGRAMA](https://github.com/Soysakiaytuno/ExamenFinalSem1/assets/152195270/207206d1-a875-4c05-b19a-1d7d27cbb1cb)
 ## CREDITOS
