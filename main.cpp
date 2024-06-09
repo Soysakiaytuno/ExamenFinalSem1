@@ -12,11 +12,11 @@ void funcion_print(const map<string,string>& base_de_datos);
 map<string, string> reverse_map(map<string, string> m);
    
 int main (){
+    
    string fecha;
    string evento;
    string comando;
    map<string,string>base_de_datos;
-
 
 ///"Funcion" para determinar el tipo de comando que quiere el usuario///
 
