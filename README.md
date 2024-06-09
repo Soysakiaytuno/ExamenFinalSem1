@@ -36,6 +36,8 @@ Elimina el dato o datos que el usuario desee, si el usuario ingrese una fecha se
 Busca los eventos de la fecha ingresada por el usuario y los devuelve ordenados de forma ascendente
 ### FUNCION PRINT:
 Imprime todos los datos almacenados en la base de datos, las devuelve ordenadas las fechas de forma ascendente y si en la misma fecha hay eventos diferentes los ordena de forma alfabetica
+### FUNCION FORMATEAR FECHA:
+Esta funcion revisa el año negativo, y ve si es necesario aumentar 0 dentro del dia, mes y año, para devolver en el formato indicado de YYYY-MM-DD. 
 ## Diagrama de flujo
 ![DIAGRAMA](https://github.com/Soysakiaytuno/ExamenFinalSem1/assets/152195270/207206d1-a875-4c05-b19a-1d7d27cbb1cb)
 ## CREDITOS
