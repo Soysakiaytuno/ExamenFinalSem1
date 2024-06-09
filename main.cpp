@@ -205,7 +205,7 @@ void funcion_add(map<string, string>& base_de_datos, string fecha, string evento
     // Combinar las partes en la fecha final
     string final_date = year + "-" + month + "-" + day;
 
-    // Almacenar en el mapa con la fecha como clave y el evento como valor
+    
     base_de_datos[evento] = final_date;
 }
 
