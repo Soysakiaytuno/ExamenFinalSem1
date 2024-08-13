@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-08-13T22:28:25.406Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" etag="m91rJmnsQzBK_jCCWo11" version="24.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-08-13T22:58:41.170Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" etag="9zRZSm0VJz2i2-RAFILh" version="24.5.2" type="github">
   <diagram name="Página-1" id="uod3fX4rJm5GojL-mXqh">
     <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -71,23 +71,23 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DiVkaRxmPTd7pdql4NPj-18" value="Almacena los videos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DiVkaRxmPTd7pdql4NPj-18" value="Contenido" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="360" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="DiVkaRxmPTd7pdql4NPj-19" value="Muestra videos verticales cortos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DiVkaRxmPTd7pdql4NPj-19" value="Algoritmo de contenido" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="710" y="370" width="90" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="DiVkaRxmPTd7pdql4NPj-20" value="Formato de scroll infinito" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DiVkaRxmPTd7pdql4NPj-20" value="estadisticas de usuario" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="460" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="DiVkaRxmPTd7pdql4NPj-21" value="Graba videos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DiVkaRxmPTd7pdql4NPj-21" value="Correo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="370" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="DiVkaRxmPTd7pdql4NPj-22" value="Crea contenido" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DiVkaRxmPTd7pdql4NPj-22" value="Nickname" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="360" width="90" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="DiVkaRxmPTd7pdql4NPj-24" value="Sube videos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="500" width="120" height="80" as="geometry" />
+        <mxCell id="DiVkaRxmPTd7pdql4NPj-24" value="foto de perfil" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="490" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
